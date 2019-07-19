@@ -1,0 +1,29 @@
+Field {
+    display: flex;
+    position: absolute;
+    background-color: #dedede;
+    flex-wrap: wrap;
+    border-top: 1px solid #aeaeae;
+    border-left: 1px solid #aeaeae;
+}
+
+Cell {
+    flex: 1 1 auto;
+    width: 29px;
+    height: 29px;
+    border-right: 1px solid #aeaeae;
+    border-bottom: 1px solid #aeaeae;
+    transition: background-color .2s ease;
+}
+
+Cell:hover {
+    opacity: .8;
+}
+
+.cell-type-ground {
+    background-color: #3d7b0a;
+}
+
+.cell-type-wall {
+    background-color: #404040;
+}
